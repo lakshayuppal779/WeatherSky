@@ -13,7 +13,10 @@ WeatherSky is a comprehensive weather application built using Flutter and GetX. 
 
 ## Screenshots
 
-![weather](https://github.com/lakshayuppal779/WeatherSky/assets/117820155/31e0a200-8418-49ac-a5d0-6cfc5e69cbde)
+![Screenshot_2024-07-07-11-49-38-36_067ca54d029a1c65bea8d27590265e45](https://github.com/lakshayuppal779/WeatherSky/assets/117820155/56ef4d48-eb0d-4de4-9dbe-b8a75e96822a)
+![Screenshot_2024-07-07-11-49-56-80_067ca54d029a1c65bea8d27590265e45](https://github.com/lakshayuppal779/WeatherSky/assets/117820155/0b6ee26f-ede8-46fb-baea-c54441bdefba)
+![Screenshot_2024-07-07-11-49-48-84_067ca54d029a1c65bea8d27590265e45](https://github.com/lakshayuppal779/WeatherSky/assets/117820155/ddaff1db-3adc-4c30-8430-c88d487834ea)
+![Screenshot_2024-07-07-11-51-15-03_067ca54d029a1c65bea8d27590265e45](https://github.com/lakshayuppal779/WeatherSky/assets/117820155/deb61e0a-9a96-4b98-a2d2-32b3fcf732c2)
 
 
 ## Installation
