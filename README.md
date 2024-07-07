@@ -34,7 +34,7 @@ Before you begin, ensure you have met the following requirements:
 To clone the repository, run the following commands:
 
 ```bash
-git clone https://github.com/yourusername/WeatherSky.git
+git clone https://github.com/lakshayuppal779/WeatherSky.git
 cd WeatherSky
 ```
 
@@ -118,6 +118,7 @@ lib/
 1. Tap on the history icon in the custom app bar.
 2. The app will display a list of previously searched cities.
 3. Tap on any city in the list to view its weather details.
+4. Tap on + icon to add new city 
 
 ## Contributions
 
@@ -131,4 +132,3 @@ Contributions are welcome! Please follow these steps to contribute:
 6. Open a pull request.
 
 Happy Coding!
-```
