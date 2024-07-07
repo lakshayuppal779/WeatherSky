@@ -18,7 +18,6 @@ WeatherSky is a comprehensive weather application built using Flutter and GetX. 
 ![Screenshot_2024-07-07-11-49-48-84_067ca54d029a1c65bea8d27590265e45](https://github.com/lakshayuppal779/WeatherSky/assets/117820155/ddaff1db-3adc-4c30-8430-c88d487834ea)
 ![Screenshot_2024-07-07-11-51-15-03_067ca54d029a1c65bea8d27590265e45](https://github.com/lakshayuppal779/WeatherSky/assets/117820155/deb61e0a-9a96-4b98-a2d2-32b3fcf732c2)
 
-
 ## Installation
 
 ### Prerequisites
@@ -46,39 +45,32 @@ Navigate to the project directory and install the required dependencies:
 flutter pub get
 ```
 
+### Visual Crossing Weather API
+
+WeatherSky uses the Visual Crossing Weather API to fetch real-time weather data. The API provides accurate weather information including temperature, humidity, wind speed, and more. To use the API, you need to sign up and obtain an API key from the Visual Crossing website.
+
+Configure API key:
+
+- Navigate to the lib/res/app_url/app_url.dart file.
+- Replace YOUR_API_KEY with your Visual Crossing Weather API key.
+
+```bash
+class AppUrl {
+  static const String baseUrl = 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline';
+  static const String apiKey = 'YOUR_API_KEY'; // Add your Visual Crossing API key here
+
+  static String getWeather(String city) {
+    return '$baseUrl/$city?unitGroup=metric&key=$apiKey';
+  }
+}
+```
+
 ### Running the App
 
 To run the app on an emulator or a physical device, use the following command:
 
 ```bash
 flutter run
-```
-
-### Using Git Large File Storage (LFS)
-
-This project uses Git LFS to manage large files such as images and data files. Ensure Git LFS is installed and initialized:
-
-```bash
-git lfs install
-```
-
-Track your large files:
-
-```bash
-git lfs track "*.jpg" "*.png" "data/*.csv"
-```
-
-Add and commit your changes:
-
-```bash
-git add .
-git commit -m "Add large files tracked by Git LFS"
-```
-
-Push to the remote repository:
-
-```bash
-git push origin main
 ```
 
 ## Project Structure
@@ -118,7 +110,11 @@ lib/
 1. Tap on the history icon in the custom app bar.
 2. The app will display a list of previously searched cities.
 3. Tap on any city in the list to view its weather details.
-4. Tap on + icon to add new city 
+4. Tap on + icon to add new city.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contributions
 
@@ -130,5 +126,6 @@ Contributions are welcome! Please follow these steps to contribute:
 4. Commit your changes (`git commit -m 'Add some feature'`).
 5. Push to the branch (`git push origin feature/your-feature-name`).
 6. Open a pull request.
+   
 
 Happy Coding!
